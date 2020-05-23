@@ -18,14 +18,14 @@ For instance:
 // Under construction
 function change(string){
   string = string.toLowerCase()
-  const alphabet = 'abcdefghijklmnoparstuvwxyz'.split('')
+  const alp = 'abcdefghijklmnopqrstuvwxyz'.split('')
   let res = '00000000000000000000000000'.split('')
-  for(let i = 0;i < string.length;i++) {
-    if(alphabet.indexOf(string[i]) != -1) 
-      res[alphabet.indexOf(string[i])] = '1' 
-  }
+  string.split('').forEach((e, i) => {
+    res[alp.indexOf(e)] = alp.indexOf(e) != -1 ? '1':'0'
+  })
 
   return res.join('')
 }
 
 console.log(change('a   **&  cZ'))
+console.log(change('a   **&  bZ'))
