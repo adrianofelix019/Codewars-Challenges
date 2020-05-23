@@ -15,7 +15,6 @@ For instance:
 "a   **&  cZ"  =>  "10100000000000000000000001"
 */
 
-// Under construction
 function change(string){
   string = string.toLowerCase()
   const alp = 'abcdefghijklmnopqrstuvwxyz'.split('')
