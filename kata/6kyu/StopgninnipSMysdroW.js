@@ -10,8 +10,8 @@ sroirraw" spinWords( "This is a test") => returns "This is a test" spinWords(
 */
 
 function spinWords(text) {
-    return text.split(' ').map(w => w.length >= 5 ? w.split('')
-        .reverse().join('') : w).join(' ')
+  return text.split(' ').map(w => w.length >= 5 ? w.split('')
+    .reverse().join('') : w).join(' ')
 }
 
 console.log(spinWords("Hey fellow warriors"))
