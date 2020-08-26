@@ -42,9 +42,10 @@ function pickPeaks(arr) {
       while (n === arr[peakEnd]) {
         peakEnd++;
       }
+    } else {
+      peakEnd++;
     }
 
-    peakEnd = peakEnd === i ? peakEnd++:peakEnd;
     if (n > arr[peakEnd] && n > arr[i - 1]) {
       pos.push(i);
       peaks.push(n);
