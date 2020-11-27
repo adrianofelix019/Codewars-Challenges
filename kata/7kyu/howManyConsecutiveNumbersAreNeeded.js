@@ -10,8 +10,15 @@ from 4 to 8. Numbers in arr will be unique.
 */
 
 function consecutive(arr) {
-  arr = arr.sort((a, b) => a-b)
-  // Todo
+  arr = arr.sort((a, b) => a - b)
+  let n = 0
+  for (let i = 0; i < arr.length-1; i++) {
+    if (arr[i] + 1 !== arr[i + 1]) {
+      n += (arr[i + 1]) - (arr[i] + 1)
+    }
+  }
+  return n
 }
 
-consecutive([4, 8, 6])
+console.log(consecutive([4, 8, 6]))
+console.log(consecutive([40, 16, 9]))
