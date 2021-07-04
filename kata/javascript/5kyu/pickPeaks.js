@@ -27,9 +27,9 @@
  * Have fun!
  */
 
-const test1 = [0, 1, 2, 5, 1, 0] // { pos: [3], peaks: [5] }
-const test2 = [3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3] // {pos: [3, 7], peaks: [6, 3] }
-const test3 = [3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 2, 2, 1] // { pos: [3, 7, 10], peaks: [6, 3, 2] }
+const test1 = [0, 1, 2, 5, 1, 0]; // { pos: [3], peaks: [5] }
+const test2 = [3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 3]; // {pos: [3, 7], peaks: [6, 3] }
+const test3 = [3, 2, 3, 6, 4, 1, 2, 3, 2, 1, 2, 2, 2, 1]; // { pos: [3, 7, 10], peaks: [6, 3, 2] }
 
 function pickPeaks(arr) {
   let pos = [];
