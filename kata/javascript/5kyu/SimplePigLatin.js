@@ -18,6 +18,3 @@ function pigIt(str) {
     return newWord
   }).join(' ')
 }
-
-console.log(pigIt('Pig latin is cool'))
-console.log(pigIt('Hello world !'))
