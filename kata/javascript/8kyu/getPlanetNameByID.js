@@ -1,12 +1,12 @@
 /*
-The function is not returning the correct values. Can you figure out why?
-
-getPlanetName(3); // should return 'Earth'
-*/
+ * The function is not returning the correct values. Can you figure out why?
+ *
+ * getPlanetName(3); // should return 'Earth'
+ */
 
 function getPlanetName(id){
   // The break statement in each case is necessary for the switch to work correctly.
-  var name;
+  var name
   switch(id){
     case 1:
       name = 'Mercury'
@@ -33,7 +33,5 @@ function getPlanetName(id){
       name = 'Neptune'
   }
   
-  return name;
+  return name
 }
-
-console.log(getPlanetName(3))

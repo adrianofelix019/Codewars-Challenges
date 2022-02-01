@@ -1,12 +1,12 @@
 /* 
-When provided with a number between 0-9, return it in words.
-
-Input :: 1
-
-Output :: "One".
-
-If your language supports it, try using a switch statement.
-*/
+ * When provided with a number between 0-9, return it in words.
+ * 
+ * Input :: 1
+ * 
+ * Output :: "One".
+ * 
+ * If your language supports it, try using a switch statement.
+ */
 
 function switchItUp(number) {
   switch (number) {
@@ -42,7 +42,3 @@ function switchItUp(number) {
       break
   }
 }
-
-console.log(switchItUp(6))
-console.log(switchItUp(8))
-console.log(switchItUp(1))

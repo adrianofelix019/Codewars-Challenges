@@ -1,11 +1,11 @@
 /*
-Clock shows 'h' hours, 'm' minutes and 's' seconds after midnight.
-
-Your task is to make 'Past' function which returns time converted to milliseconds.
-
-Example:
-past(0, 1, 1) == 61000
-*/
+ * Clock shows 'h' hours, 'm' minutes and 's' seconds after midnight.
+ *
+ * Your task is to make 'Past' function which returns time converted to milliseconds.
+ *
+ * Example:
+ * past(0, 1, 1) == 61000
+ */
 
 function past(h, m, s) {
   const seconds = s * 1000
@@ -13,6 +13,3 @@ function past(h, m, s) {
   const hours = h * 60 * 60 * 1000
   return seconds + minutes + hours
 }
-
-console.log(past(0,1,1)) // 61000
-console.log(past(1,1,1)) // 3661000
