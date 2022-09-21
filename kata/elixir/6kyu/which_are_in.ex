@@ -25,8 +25,8 @@
 
 defmodule Whicharein do
 
-  def is_substring_of?(substr, list) do
-    list
+  def is_substring_of?(substr, str) do
+    str
     |> Enum.reduce(false, fn (curr, acc) ->
       acc || String.contains?(curr, substr)
     end)
