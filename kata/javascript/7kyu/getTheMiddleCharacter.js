@@ -27,8 +27,3 @@ function getMiddle(str) {
 
   return str.charAt(middleIndex)
 }
-
-console.log(getMiddle("test"), " <- Must be 'es'")
-console.log(getMiddle("testing"), " <- Must be 't'")
-console.log(getMiddle("middle"), " <- Must be 'dd'")
-console.log(getMiddle("A"), " <- Must be 'A'")
