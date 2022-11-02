@@ -42,8 +42,3 @@ function tribonacci(signature, n) {
 
   return tribonacci(signature, n)
 }
-
-// console.log(tribonacci([1,1,1], 7), ' <- left side should be [1,1,1,3,5,9,17], the list is [1,1,1,3,5,9,17,31,57,105]')
-// console.log(tribonacci([0,0,1], 9), ' <- left side should be 24, the list is [0,0,1,1,2,4,7,13,24,44]')
-// console.log(tribonacci([0,1,1], 5), ' <- left side should be 4, the list is [0,1,1,2,4,7,13,24,44,81]')
-console.log(tribonacci([1,1,1], 10), ' <- left side should be 4, the list is [0,1,1,2,4,7,13,24,44,81]')
