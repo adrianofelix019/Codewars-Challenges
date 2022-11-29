@@ -14,7 +14,7 @@ import java.util.List;
 
 public class DescendingOrder {
   public static int sortDesc(final int num) {
-    List<String> reversedNumArr =   Arrays.stream(
+    List<String> reversedNumArr = Arrays.stream(
                 Integer.toString(num).split(""))
                 .sorted(Collections.reverseOrder())
                 .toList();
