@@ -9,8 +9,8 @@
  * All values will be positive integers or floats, or zero.
  */
 
-public class Plural{
-    public static boolean isPlural(float f){
+public class Plural {
+    public static boolean isPlural(float f) {
         if (f == 1) {
                 return false;
             } else {
