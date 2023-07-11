@@ -14,6 +14,6 @@
 
 # Hint: Don't forget to check for bad values like null/undefined
 
-def countSheeps array
+def count_sheeps(array)
   array.select { |sheep| sheep == true }.count
 end
