@@ -27,12 +27,3 @@ def goose_filter(birds):
         if not bird in geese:
             result.append(bird)
     return result
-
-# Should return ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
-print(goose_filter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]))
-
-# Should return ["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]
-print(goose_filter(["Mallard", "Barbary", "Hook Bill", "Blue Swedish", "Crested"]))
-
-# Should return []
-print(goose_filter(["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]))
