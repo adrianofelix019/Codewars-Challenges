@@ -35,8 +35,3 @@ function SeriesSum(n) {
 
     return result.toFixed(2).toString();
 }
-
-console.log(SeriesSum(1));
-console.log(SeriesSum(2));
-console.log(SeriesSum(5));
-console.log(SeriesSum(0));
