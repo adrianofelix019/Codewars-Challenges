@@ -25,12 +25,12 @@
 
 function SeriesSum(n) {
     let result = 0;
-    const dividend = 1
-    let divisor = 1
+    const dividend = 1;
+    let divisor = 1;
     
     for (let i = 0; i < n; i++) {
-        result += dividend / divisor
-        divisor += 3
+        result += dividend / divisor;
+        divisor += 3;
     }
 
     return result.toFixed(2).toString();
